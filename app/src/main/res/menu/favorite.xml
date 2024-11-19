@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addFavoris"
+        android:icon="@drawable/outline_home_black_48"
+        android:title="Ajouter aux Favoris"/>
+
+    <item
+        android:id="@+id/supFavoris"
+        android:icon="@drawable/outline_home_black_48"
+        android:title="Supprimer des Favoris"/>
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/outline_home_black_48"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/navigation_delete"
+        android:icon="@drawable/outline_delete_sweep_black_48"
+        android:title="Supprimer"/>
+
+    <item
+        android:id="@+id/navigation_research"
+        android:icon="@drawable/outline_search_black_48"
+        android:title="Research"/>
+
+</menu>

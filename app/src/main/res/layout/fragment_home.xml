@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment"
+    android:orientation="vertical"
+    android:background="#b5dbb1">
+
+
+        <TextView
+            android:id="@+id/your_anime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/your_anime"
+            android:background="#b5dbb1"
+            android:textSize="32sp"/>
+
+        <ScrollView
+            android:id="@+id/scrollable_database"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b5dbb1">
+
+                <GridLayout
+                    android:id="@+id/home_anime_grid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+        </ScrollView>
+</LinearLayout>
